@@ -232,11 +232,25 @@
 # # Simule 100 lançamentos de um dado de 6 faces. Conte quantas vezes cada face foi sorteada e exiba o resultado. Use `for` e `random.randint(1,6)`. (Importe `random`.)
 # import random
 
-# contagem = {i: 0 for i in range(1, 7)}
 
-# for _ in range(100):
-#     dado = random.randint(1, 6)
-#     contagem[dado] += 1
+# correçao 
+# # i  =  input('digite o numero')
+# # c = 0
+# # while c <=0:
+# #     z   =  [int(x) for x  in i]
+# #     s = sum(z)
+# #     c  =  c + 1
+# # print(s) 
 
-# for face, qtd in contagem.items():
-#     print(f"Face {face}: {qtd} vezes")
+# x  =  input('digite um numero: ') 
+# l = []
+# n = 0
+# while n < len(x):
+#     #   print(n)
+#       l.append(int(x[n]))
+#       n += 1
+
+
+
+# print(l)
+# print(sum(l))
